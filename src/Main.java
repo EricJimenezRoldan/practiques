@@ -22,6 +22,9 @@ public class Main {
       menu = menu + "\n 10) PR132main";
       menu = menu + "\n 11) PR133mainTreballadors";
       menu = menu + "\n 12) GestorEstudiants";
+      menu = menu + "\n 13) PR140main";
+      menu = menu + "\n 14) PR141main";
+      menu = menu + "\n 15) PR142main";
       menu = menu + "\n 100) Sortir";
       System.out.println(menu);
 
@@ -41,6 +44,9 @@ public class Main {
           case 10: PR132main.main(args); break;
           case 11: PR133mainTreballadors.main(args); break;
           case 12: GestorEstudiants.main(args); break;
+          case 13: PR140main.main(args); break;
+          case 14: PR141main.main(args); break;
+          case 15: PR142main.main(args); break;
           case 100: running = false; break;
           default: System.out.println("Opció no vàlida. Si us plau, selecciona una opció vàlida."); break;
         }
